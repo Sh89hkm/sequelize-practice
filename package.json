@@ -1,0 +1,28 @@
+{
+  "name": "curriculum-backend-sequelize-practice",
+  "version": "1.0.0",
+  "description": "Sequelize Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docker compose up",
+    "stop": "docker compose down",
+    "verify": "docker ps",
+    "execute": "docker compose run -i app",
+    "reset": "docker compose down -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReCoded-Org/curriculum-backend-sequelize-practice.git"
+  },
+  "author": "Re:Coded",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReCoded-Org/curriculum-backend-sequelize-practice/issues"
+  },
+  "homepage": "https://github.com/ReCoded-Org/curriculum-backend-sequelize-practice#readme",
+  "dependencies": {
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  }
+}
